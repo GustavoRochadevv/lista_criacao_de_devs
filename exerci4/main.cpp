@@ -4,18 +4,20 @@ using namespace std;
 
 int main()
 {
+
+    // O exercício pede pra você pedir o ano atual e a idade que ele mostra o ano que vc nasceu
     int idade , anoAtual , anoNasc;
 
     cout << "digite o ano atual ";
     cin >> anoAtual;
 
-    cout << "digite seu ano de nascimento ";
-    cin >> anoNasc;
+    cout << "digite a sua idade ";
+    cin >> idade;
 
 
 
-    idade = anoAtual - anoNasc;
+    anoNasc = anoAtual - idade;
 
-    cout << "o usuario possui " << idade << " anos " ;
+    cout << "o usuario nasceu em " << anoNasc;
     return 0;
 }
